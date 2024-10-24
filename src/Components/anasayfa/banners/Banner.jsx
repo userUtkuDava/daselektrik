@@ -1,5 +1,6 @@
 import React from 'react'
 import './banner.css'
+import slide1 from './img/slide-1.avif'
 
 const Banner = () => {
     return (
@@ -11,7 +12,7 @@ const Banner = () => {
             </div>
             <div className="carousel-inner ">
                 <div className="carousel-item active" id="slide-1">
-                    <img src="src/Components/anasayfa/banners/img/slide-1.avif" className="d-block  w-100" alt="..."></img>
+                    <img src={slide1} className="d-block  w-100" alt="..."></img>
                     <div className='anabaslik'>
                         <h1 >DAS <span className='vurgubaslik'>ELEKTRİK</span></h1>
                         <p className='baslik-aciklamasi '>Güven Verilmez Kazanılır</p>
