@@ -4,6 +4,7 @@ import './footer.css'
 import { CiMail } from "react-icons/ci";
 import { MdLocalPhone } from "react-icons/md";
 import { CiLocationArrow1 } from "react-icons/ci";
+import logo from '../../assets/logodas.png'
 const Footer = () => {
 
     return (
@@ -16,7 +17,7 @@ const Footer = () => {
                             <h2 className="footer-heading">
                                 <a href="#" className="logo">
 
-                                    <img className='bg-light rounded-2' src='src/assets/logodas.png'>
+                                    <img className='bg-light rounded-2' src={logo}>
                                     </img>
                                 </a>
                             </h2>
@@ -56,7 +57,7 @@ const Footer = () => {
                             <h2 className="footer-heading mt-5">Ziyaret Et</h2>
                             <div className='d-flex flex-row'>
                                 <div className='m-2'>
-                                    <img src='src/assets/logodas.png' className='bg-light rounded-5 p-2 cursor-pointer' width={55}></img>
+                                    <img src={logo} className='bg-light rounded-5 p-2 cursor-pointer' width={55}></img>
                                 </div>
                                 <div className='m-2'>
                                     <img src='https://cdn-icons-png.freepik.com/512/13051/13051741.png?ga=GA1.1.382380607.1722269787' className='bg-light rounded-5 cursor-pointer' width={55}></img>

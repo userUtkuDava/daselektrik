@@ -1,6 +1,8 @@
 import React from 'react'
 import './banner.css'
 import slide1 from './img/slide-1.avif'
+import slide2 from './img/slide-2.jpg'
+import slide3 from './img/slide-1.avif'
 
 const Banner = () => {
     return (
@@ -22,14 +24,14 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img src="src/Components/anasayfa/banners/img/slide-2.jpg" className="d-block w-100" alt="..."></img>
+                    <img src={slide2} className="d-block w-100" alt="..."></img>
                     <div className="carousel-caption  d-md-block" id="slide-aciklama">
                         <h3>Şalt Malzemeleri</h3>
                         <p className='d-none'>Uygun fiyat & Kaliteli Hizmet</p>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img src="https://img.freepik.com/free-photo/modern-living-room-interior-with-large-tv-screen-displaying-home-automation-system_9975-33164.jpg?t=st=1729687795~exp=1729691395~hmac=e4a0e16a37a1dd81617c9c4cdfd9595f93e2f711d8ba0443da51ac401439ba0d&w=1380  " className="d-block w-100" alt="..."></img>
+                    <img src={slide3} className="d-block w-100" alt="..."></img>
                     <div className="carousel-caption  d-md-block" id="slide-aciklama">
                         <h3>Ev Aydınlatma Ürünleri</h3>
                         <p className=''>Ev, ofis ve iş yerleri için aydınlatma çözümleri.</p>

@@ -20,6 +20,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { PiStorefrontBold } from "react-icons/pi";
 import { BsLink } from "react-icons/bs";
 import { AiOutlineGlobal } from "react-icons/ai"
+import hdlogo from '../../assets/logoHdDas.png'
+import logo from '../../assets/logodas.png'
 
 const Menu = () => {
 
@@ -44,7 +46,7 @@ const Menu = () => {
 
                 <div className='menu-logo '>
                     <img
-                        src='src/assets/logoHdDas.png'
+                        src={hdlogo}
                         alt='Das Elektrik Logo'
                         title='Das Elektrik'
                     >
