@@ -1,0 +1,55 @@
+.img-container {
+    width: 300px;
+    height: 300px;
+    padding: 0px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-container:focus {
+    outline: none;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    transition: all;
+    transition-duration: 0.3s;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.img-container img:hover {
+    opacity: 0.9;
+    cursor: pointer;
+
+}
+
+.img-container h1 {
+    transition: all 0.3s;
+
+}
+
+.img-container img:hover+h1 {
+
+    background-color: rgb(0, 0, 0);
+
+
+    height: 500px;
+    color: white !important;
+}
+
+.slick-slider:focus {
+    outline: none;
+    /* Fokuslandığında outline'ı kaldır */
+}
+
+.gecis-container {
+    min-height: 100vh;
+    height: auto;
+}
+
+.custom-gecis-title {
+    margin-top: 10rem !important;
+}

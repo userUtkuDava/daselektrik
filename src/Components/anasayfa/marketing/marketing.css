@@ -1,0 +1,49 @@
+.marketing-container {
+    height: auto;
+    background-color: whitesmoke;
+}
+
+.marketing-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.marketing-text-content {}
+
+.marketing-images {
+    height: 100%;
+}
+
+.marketing-images img {
+    width: 100%;
+    height: 100%;
+}
+
+.marketing-text-container p {
+    color: rgba(0, 0, 0, 0.507);
+    font-size: 1rem;
+    line-height: 2.2;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+
+.marketing-title {
+
+    font-weight: 900;
+    font-size: 2.9rem;
+}
+
+@media (max-width: 1280px) {
+    [data-aos='slide-left'] {
+        opacity: 1;
+        /* Görünürlüğü artır */
+        transform: none;
+        /* Efekti kaldır */
+        transition: none;
+        /* Geçişi kaldır */
+    }
+}

@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  /* İmleci tıklanabilir hale getir */
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.loading-spinner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  /* Logo ve yazıyı dikeyde hizalamak için */
+  align-items: center;
+  /* Ortalamak için */
+  justify-content: center;
+  /* Ortalamak için */
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Yarı saydam beyaz arka plan */
+  z-index: 9999;
+  /* Diğer içeriklerin üstünde görünmesi için */
+}
+
+.loading-logo {
+  width: 100px;
+  /* Logo boyutunu ayarlayın */
+  margin-bottom: 20px;
+  /* Logo ile yazı arasında boşluk */
+}
+
+.half-height {
+  height: 50vh;
+}
+
+.ciz {
+  border: solid 1px black;
+}
+
+.ciz-2 {
+  border: solid 1px rgb(232, 0, 0);
+}
+
+blockquote {
+  margin: 1em 40px;
+  padding: 0.5em 10px;
+  border-left: 4px solid #ee0000;
+  font-style: italic;
+}
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+  position: relative;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.548);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  transition: all;
+  transition-duration: 0.3s;
+  padding: 3px 1px;
+}
+
+a:hover {
+  color: #e91e27;
+
+}
+
+/* ? Sitedeki TÜM linklerin defult modeli burda yer almaktadır */
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+
+  font-weight: 300;
+
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.vurgu {
+  font-weight: 900;
+  color: #e91e27;
+
+}
+
+
+
+.custom-bg-white {
+  background-color: white;
+}
+
+.custom-color-white {
+  color: white;
+}
+
+.custom-bg-red {
+  background-color: red;
+}
+
+.custom-color-red {
+  color: red;
+}
+
+.custom-bg-green {
+  background-color: green;
+}
+
+.custom-color-green {
+  color: green;
+}
+
+.custom-bg-black {
+  background-color: black;
+}
+
+.custom-color-black {
+  color: black;
+}
+
+
+.page-title {
+  font-size: 48px;
+  color: #000000;
+  font-weight: medium;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.title-description {
+  margin: 0 auto;
+  max-width: 64rem;
+  text-align: center;
+  padding: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.page-big-title {
+  width: 100%;
+  height: 350px;
+
+  overflow: hidden;
+}
+
+.page-big-title img {
+  transition: all 2s;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.1);
+
+}
+
+.page-big-title:hover img {
+  transform: scale(1);
+
+}
+
+.pages-links {
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+}
+
+.pages-links a {
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+}
+
+.upbutton {
+  width: 50px;
+  height: 50px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(244, 4, 4);
+  box-shadow: 0px 0px 20px 0px white;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+
+  font-size: 28px;
+
+
+}
+
+
+
+.title-line {
+  display: flex;
+  margin: 2rem auto;
+  width: 21rem;
+  color: #DF4040;
+}
+
+.title-blog {
+  color: #1a1a1a;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+
+}
+
+@media screen and (max-width: 600px) {
+  .page-title {
+    font-size: 24px;
+    color: #243265;
+    font-weight: medium;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .title-line {
+    display: flex;
+    margin: 20px auto;
+    width: 150px;
+    color: #DF4040;
+  }
+
+}

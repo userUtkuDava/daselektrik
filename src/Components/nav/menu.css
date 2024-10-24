@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.teklif {
+
+    width: 230px;
+    text-align: center;
+    margin-left: 50px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: none;
+    background-color: white;
+
+    color: #e91e27;
+    border-radius: 0px !important;
+    border: solid 1px #e91e27;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 9px rgb(0, 0, 0, 0.6);
+    padding: 10px 120px;
+    z-index: 999;
+}
+
+
+
+
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+
+}
+
+.menu-logo {
+    width: 320px;
+    height: 115px;
+    padding: 1rem;
+
+
+}
+
+.menu-logo img {
+    height: 100%;
+    width: 100%;
+
+
+
+
+}
+
+
+#navbar li {
+    list-style: none;
+    position: relative;
+    padding: 0 20px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    margin-top: 5px;
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 2px;
+    font-weight: 600;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+
+    padding: 0px 10px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+
+
+
+
+}
+
+#navbar li a:hover {
+    color: rgb(32, 2, 2);
+}
+
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+
+
+.nav-ico {
+
+
+    margin-bottom: 2px;
+    font-size: 30px;
+    padding: 5px;
+    margin-right: 0px;
+}
+
+#ara-ico {
+    width: 50px;
+    height: 50px;
+}
+
+
+.mobile-menu-button {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/* mobile için menü kodlaması */
+.deneme {
+    display: none;
+}
+
+
+.deneme ul li a {
+    background-color: red !important;
+}
+
+.neon-button {
+    background-color: transparent;
+    border: 2px solid rgb(255, 0, 0);
+    /* Neon mavi */
+    border-radius: 0px !important;
+    width: 200px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+    /* Neon mavi metin */
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    animation: rotate-border 2s infinite;
+}
+
+@keyframes rotate-border {
+    0% {
+        border-color: rgb(255, 0, 0);
+    }
+
+    50% {
+        border-color: rgb(214, 210, 210);
+    }
+
+    100% {
+        border-color: rgb(255, 0, 0);
+    }
+}
+
+
+
+
+
+@media screen and (max-width:1569px) {
+    .mobile-menu {
+        display: none;
+    }
+
+    .deneme {
+        display: flex;
+        flex-direction: column;
+
+
+
+
+    }
+
+    .nav {
+        position: relative;
+    }
+
+    .deneme li {
+        list-style: none;
+        font-size: 15px;
+        margin-top: 10px;
+        color: white;
+        width: 200px;
+        padding: 5px;
+        transition: all 0.2s ease-in-out;
+
+
+
+    }
+
+    .deneme li:hover {
+        background-color: white;
+        border-radius: 10px;
+        color: red;
+    }
+
+    #menu-close-btn {
+        position: absolute;
+        top: 70px;
+        right: -50px;
+    }
+
+
+    .mobile-menu-active {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 0, 0, 0.75);
+        z-index: 9999;
+        padding: 60px 30px;
+
+
+
+
+    }
+
+
+
+
+    #navbar {
+        display: none;
+
+    }
+
+    .navbar {}
+
+    .mobile-menu-button {
+        position: absolute;
+        top: 22px;
+        right: -60px;
+        display: block;
+        margin-right: 20%;
+        border: none;
+        width: 50px;
+        height: 50px;
+        color: red;
+        background-color: white;
+        font-weight: 900;
+        box-shadow: 0px 0px 2px 0px white;
+        border-radius: 50%;
+        align-items: center;
+
+
+
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .menu-logo {
+        width: 170px;
+        height: 70px;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    i {
+        font-size: 32px !important;
+    }
+}

@@ -1,0 +1,27 @@
+.main-hakkimizda {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.container ul li {
+    list-style: none;
+    margin-top: 5px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 15px;
+}
+
+.container p {
+    font-family: "Montserrat", sans-serif;
+    padding: 4px;
+}
+
+.icon-list {
+    margin-right: 5px;
+}
+
+.misyon-content {
+    margin-top: 8rem;
+}
