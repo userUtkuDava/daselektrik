@@ -28,7 +28,7 @@ function App() {
         <Menu />
 
         <Routes>
-          <Route path='/' element={<Home />}></Route>
+          <Route path='/daselektrik' element={<Home />}></Route>
           <Route path='/katalog' element={<Katalog />}></Route>
           <Route path='blog/:id' element={<BlogDetail />}></Route>
           <Route path='/İletisim' element={<İletisim />}></Route>
