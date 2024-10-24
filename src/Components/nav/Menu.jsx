@@ -44,7 +44,7 @@ const Menu = () => {
 
                 <div className='menu-logo '>
                     <img
-                        src='logoHdDas.png'
+                        src='src/assets/logoHdDas.png'
                         alt='Das Elektrik Logo'
                         title='Das Elektrik'
                     >
