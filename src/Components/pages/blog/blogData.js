@@ -1,3 +1,5 @@
+import resim1 from "../images/blog/enerji-tasarrufu.jpg";
+
 const createBlogEntry = (id, url, baslik, text, katagori, tarih, yazar) => {
   const first100Chars = text.substring(0, 300);
   return {
@@ -16,7 +18,7 @@ const createBlogEntry = (id, url, baslik, text, katagori, tarih, yazar) => {
 export const bloglar = [
   createBlogEntry(
     "1",
-    "src/Components/pages/images/blog/enerji-tasarrufu.jpg",
+    resim1,
     "Evde Enerji Tasarrufu İçin 10 İpucu",
     "Evde enerji tasarrufu sağlamak hem bütçenize hem de çevreye katkıda bulunur. Bu yazıda, enerji tasarrufu sağlayacak basit ama etkili yöntemleri paylaşacağız. Enerji verimli aydınlatma sistemleri, akıllı prizler, termostat kullanımı ve cihazların bakımına dair öneriler sunacağız.",
     "elektrik",
@@ -25,7 +27,7 @@ export const bloglar = [
   ),
   createBlogEntry(
     "2",
-    "src/Components/pages/images/blog/elektrik-arıza.jpg",
+    resim1,
     "Evde Elektrik Arızalarını Nasıl Tespit Edersiniz",
     "Elektrik arızaları sık karşılaşılan bir durum olabilir ve bazen ciddi sorunlara yol açabilir. Bu yazıda, evde basit elektrik arızalarını nasıl tespit edebileceğinizi, bazı yaygın sorunların çözümlerini ve hangi durumlarda profesyonel yardım almanız gerektiğini anlatacağız.",
     "elektrik",
@@ -34,7 +36,7 @@ export const bloglar = [
   ),
   createBlogEntry(
     "3",
-    "./src/Components/pages/images/blog/led-aydınlatma.jpg",
+    resim1,
     "LED Aydınlatma: Geleneksel Ampullere Göre Avantajları",
     "LED aydınlatma, enerji verimliliği ve uzun ömrü ile dikkat çekiyor. Bu yazıda, LED ampullerin geleneksel ampullere kıyasla avantajlarını, enerji tasarrufu sağlayan özelliklerini ve kullanım alanlarını inceleyeceğiz.",
     "elektrik",
@@ -43,7 +45,7 @@ export const bloglar = [
   ),
   createBlogEntry(
     "4",
-    "src/Components/pages/images/blog/tesisat-yenileme.jpg",
+    resim1,
     "Elektrik Tesisatı Yenileme: Ne Zaman ve Neden Gereklidir?",
     "Eski elektrik tesisatları zamanla sorunlar çıkarabilir. Bu yazıda, elektrik tesisatının ne zaman yenilenmesi gerektiğini, yenilemenin avantajlarını ve sürecin nasıl işlediğini anlatacağız.",
     "elektrik kabloları",
@@ -52,7 +54,7 @@ export const bloglar = [
   ),
   createBlogEntry(
     "5",
-    "src/Components/pages/images/blog/enerji-tasarrufu.jpg",
+    resim1,
     "fotoraf",
     "Evde enerji tasarrufu sağlamak hem bütçenize hem de çevreye katkıda bulunur. Bu yazıda, enerji tasarrufu sağlayacak basit ama etkili yöntemleri paylaşacağız. Enerji verimli aydınlatma sistemleri, akıllı prizler, termostat kullanımı ve cihazların bakımına dair öneriler sunacağız.",
     "elektrik",

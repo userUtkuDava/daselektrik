@@ -17,7 +17,7 @@ const BlogDetailDesign = ({ blog }) => {
                 <div className='row '>
                     <div className='blog-img col-sm-12'>
 
-                        <img src={`../${url}`} alt="" />
+                        <img src={url} alt="" />
                     </div>
                     <div className='blog-detail '>
                         <p className='catagory'>{katagori}</p>
