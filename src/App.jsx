@@ -29,13 +29,13 @@ function App() {
 
         <Routes>
           <Route path='/daselektrik' element={<Home />}></Route>
-          <Route path='/katalog' element={<Katalog />}></Route>
-          <Route path='blog/:id' element={<BlogDetail />}></Route>
-          <Route path='/İletisim' element={<İletisim />}></Route>
+          <Route path='/daselektrik/katalog' element={<Katalog />}></Route>
+          <Route path='/daselektrik/blog/:id' element={<BlogDetail />}></Route>
+          <Route path='/daselektrik/İletisim' element={<İletisim />}></Route>
           <Route path='*' element={<NotFound />}></Route>
-          <Route path='/hizmetler' element={<Hizmleter />}></Route>
-          <Route path='/blog' element={<Blog />}></Route>
-          <Route path='/hakkımızda' element={<Hakkımızda />}></Route>
+          <Route path='/daselektrik/hizmetler' element={<Hizmleter />}></Route>
+          <Route path='/daselektrik/blog' element={<Blog />}></Route>
+          <Route path='/daselektrik/hakkımızda' element={<Hakkımızda />}></Route>
         </Routes>
       </nav>
 
