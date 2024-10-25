@@ -182,15 +182,27 @@
 }
 
 
+.nav-ico {
+    display: inline-block;
 
+}
 
 
 @media screen and (max-width:1569px) {
 
     #navbar {
         padding: 0;
-        font-size: 8px;
+        font-size: 14px;
+        margin: 0;
     }
+
+    .nav-ico {
+        display: none;
+
+    }
+
+
+
 
     #navbar li {}
 
@@ -281,6 +293,11 @@
 
     #navbar {
         display: none;
+    }
+
+    .nav-ico {
+        display: inline-block;
+
     }
 
     .menu-logo {
