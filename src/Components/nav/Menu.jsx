@@ -59,12 +59,12 @@ const Menu = () => {
                 <div >
 
                     <ul id='navbar' >
-                        <Link to={"/daselektrik/"}><li className="fw-bold"><MdHome className='nav-ico' />Ana sayfa</li></Link>
-                        <Link to={"/daselektrik/katalog"}><li className="fw-bold"><AiFillProduct className='nav-ico' />Katalog</li></Link>
-                        <Link to={"/daselektrik/blog"}><li className="fw-bold"><ImBlog className='nav-ico' />Blog</li></Link>
-                        <Link to={"/daselektrik/hakkımızda"}><li className="fw-bold"><GoCrossReference className='nav-ico' />Hakkımızda</li></Link>
-                        <Link to={"/daselektrik/iletisim"}><li className="fw-bold"><RiCustomerService2Fill className='nav-ico' />İletişim</li></Link>
-                        <Link to={"/daselektrik/hizmetler"}><li className="fw-bold"><RiServiceLine className='nav-ico' />Hizmetlerimiz</li></Link>
+                        <Link to={"/"}><li className="fw-bold"><MdHome className='nav-ico' />Ana sayfa</li></Link>
+                        <Link to={"/katalog"}><li className="fw-bold"><AiFillProduct className='nav-ico' />Katalog</li></Link>
+                        <Link to={"/blog"}><li className="fw-bold"><ImBlog className='nav-ico' />Blog</li></Link>
+                        <Link to={"/hakkımızda"}><li className="fw-bold"><GoCrossReference className='nav-ico' />Hakkımızda</li></Link>
+                        <Link to={"/iletisim"}><li className="fw-bold"><RiCustomerService2Fill className='nav-ico' />İletişim</li></Link>
+                        <Link to={"/hizmetler"}><li className="fw-bold"><RiServiceLine className='nav-ico' />Hizmetlerimiz</li></Link>
 
                     </ul>
                 </div>

@@ -9,7 +9,7 @@ import Katalog from './Components/pages/katalog/Katalog';
 import NotFound from './Components/notfound/NotFound';
 import Home from './Components/anasayfa/Home';
 import BlogDetail from './Components/pages/blog/BlogDetail';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import UpButton from './Components/anasayfa/upbutton/UpButton';
 import { useEffect } from 'react';
 import Footer from './Components/footer/Footer';
@@ -25,16 +25,18 @@ function App() {
       <nav>
         <Menu />
       </nav>
+
       <Routes>
-        <Route path="/daselektrik/" element={<Home />} />
-        <Route path="daselektrik/katalog" element={<Katalog />} />
-        <Route path="daselektrik/blog/:id" element={<BlogDetail />} />
-        <Route path="daselektrik/iletisim" element={<İletisim />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/katalog" element={<Katalog />} />
+        <Route path="/blog/:id" element={<BlogDetail />} />
+        <Route path="/iletisim" element={<İletisim />} />
+        <Route path="/hizmetler" element={<Hizmetler />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/hakkımızda" element={<Hakkımızda />} />
         <Route path="*" element={<NotFound />} />
-        <Route path="daselektrik/hizmetler" element={<Hizmetler />} />
-        <Route path="daselektrik/blog" element={<Blog />} />
-        <Route path="daselektrik/hakkımızda" element={<Hakkımızda />} />
       </Routes>
+
       <UpButton />
       <Footer />
     </>
