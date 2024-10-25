@@ -21,7 +21,7 @@ import { PiStorefrontBold } from "react-icons/pi";
 import { BsLink } from "react-icons/bs";
 import { AiOutlineGlobal } from "react-icons/ai"
 import hdlogo from '../../assets/logoHdDas.png'
-import logo from '../../assets/logodas.png'
+
 
 const Menu = () => {
 

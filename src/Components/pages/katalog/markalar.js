@@ -1,75 +1,102 @@
+//  RESİMLER //  RESİMLER //  RESİMLER //  RESİMLER //  RESİMLER
+import mutlusanimg from "../images/katalog/Mutlusan.jpg";
+import vikoimg from "../images/katalog/viko.jpg";
+import chintimg from "../images/katalog/chint.png";
+import siemensimg from "../images/katalog/siemens.png";
+import tenseimg from "../images/katalog/tense.png";
+import philipsimg from "../images/katalog/philips.png";
+import recberimg from "../images/katalog/recber.png";
+import noasimg from "../images/katalog/noas.png";
+import makelimg from "../images/katalog/makel.png";
+import legrandimg from "../images/katalog/legrand.png";
+import hesimg from "../images/katalog/hes.png";
+import entesimg from "../images/katalog/entes.png";
+//  PDFLER //  PDFLER //  PDFLER //  PDFLER //  PDFLER
+import mutlusanpdf from "./pdfs/mutlusan.pdf";
+import vikopdf from "./pdfs/viko.pdf";
+import chintpdf from "./pdfs/chint.pdf";
+import siemenspdf from "./pdfs/siemens.pdf";
+import tensepdf from "./pdfs/tense.pdf";
+import philipspdf from "./pdfs/philips.pdf";
+import recberpdf from "./pdfs/recber.pdf";
+import noaspdf from "./pdfs/noas.pdf";
+import makelpdf from "./pdfs/makel.pdf";
+import legrandpdf from "./pdfs/legrand.pdf";
+import hespdf from "./pdfs/hes.pdf";
+import entespdf from "./pdfs/entes.pdf";
+
 export const markalar = [
   {
     id: "1",
-    url: "src/Components/pages/images/katalog/Mutlusan.jpg",
+    url: mutlusanimg,
     marka: "Mutlusan",
-    pdf: "src/Components/pages/katalog/pdfs/mutlusan.pdf",
+    pdf: mutlusanpdf,
   },
   {
     id: "2",
-    url: "src/Components/pages/images/katalog/viko.jpg",
+    url: vikoimg,
     marka: "viko",
-    pdf: "src/Components/pages/katalog/pdfs/viko.pdf",
+    pdf: vikopdf,
   },
   {
     id: "3",
-    url: "src/Components/pages/images/katalog/chint.png",
+    url: chintimg,
     marka: "Chint",
-    pdf: "src/Components/pages/katalog/pdfs/chint.pdf",
+    pdf: chintpdf,
   },
   {
     id: "4",
-    url: "src/Components/pages/images/katalog/siemens.png",
+    url: siemensimg,
     marka: "siemens",
-    pdf: "src/Components/pages/katalog/pdfs/siemens.pdf",
+    pdf: siemenspdf,
   },
   {
     id: "5",
-    url: "src/Components/pages/images/katalog/tense.png",
+    url: tenseimg,
     marka: "Tense",
-    pdf: "src/Components/pages/katalog/pdfs/tense.pdf",
+    pdf: tensepdf,
   },
   {
     id: "6",
-    url: "src/Components/pages/images/katalog/philips.png",
+    url: philipsimg,
     marka: "philips",
-    pdf: "src/Components/pages/katalog/pdfs/philips.pdf",
+    pdf: philipspdf,
   },
   {
     id: "7",
-    url: "src/Components/pages/images/katalog/recber.png",
+    url: recberimg,
     marka: "recber",
-    pdf: "src/Components/pages/katalog/pdfs/recber.pdf",
+    pdf: recberpdf,
   },
   {
     id: "8",
-    url: "src/Components/pages/images/katalog/noas.png",
+    url: noasimg,
     marka: "noas",
-    pdf: "src/Components/pages/katalog/pdfs/noas.pdf",
+    pd: noaspdf,
   },
   {
     id: "9",
-    url: "src/Components/pages/images/katalog/makel.png",
+    url: makelimg,
     marka: "makel",
-    pdf: "src/Components/pages/katalog/pdfs/makel.pdf",
+    pdf: makelpdf,
   },
   {
     id: "10",
-    url: "src/Components/pages/images/katalog/legrand.png",
-    marka: "legrand.",
-    pdf: "src/Components/pages/katalog/pdfs/legrand.pdf",
+    url: legrandimg,
+    marka: "legrand",
+    pdf: legrandpdf,
   },
   {
     id: "11",
-    url: "src/Components/pages/images/katalog/hes.png",
+    url: hesimg,
     marka: "hes",
-    pdf: "src/Components/pages/katalog/pdfs/hes.pdf",
+    pdf: hespdf,
   },
 
   {
     id: "12",
-    url: "src/Components/pages/images/katalog/entes.png",
+    url: entesimg,
     marka: "entes",
-    pdf: "src/Components/pages/katalog/pdfs/entes.pdf",
+    pdf: entespdf,
   },
 ];
