@@ -11,6 +11,12 @@ const Marketing = () => {
 
     useEffect(() => {
         AOS.init({ duration: 900 }); // Animasyon süresi
+        AOS.init();
+        window.addEventListener('resize', AOS.refresh); // Ekran boyutu değiştiğinde AOS'u yenile
+
+        return () => {
+            window.removeEventListener('resize', AOS.refresh);
+        };
     }, []);
 
 
@@ -38,7 +44,7 @@ const Marketing = () => {
                             </button>
                         </div>
                     </div>
-                    <div className='marketing-images-container col-md-5 ' data-aos='slide-left'>
+                    <div className='marketing-images-container col-md-5 ' data-aos={window.innerWidth > 767 ? 'slide-left' : undefined}>
                         <div className='marketing-images'>
                             <img src='https://hasbelagac.com/wp-content/uploads/kablo-makara-fiyati.jpg'></img>
                         </div>
