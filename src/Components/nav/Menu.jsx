@@ -79,7 +79,7 @@ const Menu = () => {
             </nav>
             <div className={menuActive}>
                 <ul className='deneme '>
-                    <Link to={"/"} onClick={toggleIcon}>
+                    <Link to={"//"} onClick={toggleIcon}>
                         <li>
                             <MdHome className='nav-ico' />
                             Ansayafa
@@ -103,7 +103,7 @@ const Menu = () => {
                             Hakkımızda
                         </li>
                     </Link>
-                    <Link to={"/İletisim"} onClick={toggleIcon}>
+                    <Link to={"/iletisim"} onClick={toggleIcon}>
                         <li>
                             <RiCustomerService2Fill className='nav-ico' />
                             iletisim

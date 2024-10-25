@@ -25,7 +25,7 @@ const Footer = () => {
 
                                 Das Elektrik, endüstriyel ve ticari alanlarda geniş bir elektrik ürünleri yelpazesi sunan bir toptan elektrikçi olarak sektördeki yerini sağlamlaştırmıştır.
                             </p>
-                            <a href="hakkımızda">Daha Fazla <span className="ion-ios-arrow-round-forward"></span></a>
+
                         </div>
                         <div className="col-md-6 col-lg-3 mb-md-0 mb-4">
                             <h2 className="footer-heading">Sayfalar</h2>
