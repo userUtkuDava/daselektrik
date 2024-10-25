@@ -7,7 +7,9 @@ import titleBg from '../images/hakkımızda/hakkımızdaBg2.jpg'
 
 const referanslar = () => {
 
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <div className='page-big-title'>

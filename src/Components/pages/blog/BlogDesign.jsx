@@ -20,7 +20,7 @@ const BlogDesign = ({ blog }) => {
 
 
 
-                        <p className='metin'>{description}</p>
+                        <p className='metin'>{description}...</p>
                         <h6 className='blog-tarih'>{tarih}</h6>
                         <div className='user-info flex-row'>
                             <div className='user-box'>

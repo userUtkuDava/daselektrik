@@ -10,14 +10,14 @@ const BlogDetailDesign = ({ blog }) => {
         <>
 
             <div className='container blog-detail-container '>
-                <div><PageSmallNav currentPage="baslik" /></div>
+                <div><PageSmallNav currentPage="blog" /></div>
                 <h3 className='title-blog'>Blog</h3>
             </div>
             <div className='container col-sm-12 content-box'>
                 <div className='row '>
-                    <div className='blog-img col-sm-12'>
+                    <div className='blog-img blog-img-detail col-sm-12'>
 
-                        <img src={url} alt="" />
+                        <img src={url} alt={baslik} />
                     </div>
                     <div className='blog-detail '>
                         <p className='catagory'>{katagori}</p>

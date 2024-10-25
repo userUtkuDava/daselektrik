@@ -59,7 +59,7 @@ const Menu = () => {
                 <div >
 
                     <ul id='navbar' >
-                        <Link to={"/"}><li className="fw-bold"><MdHome className='nav-ico' />Ana sayfa</li></Link>
+                        <Link to={"//"}><li className="fw-bold"><MdHome className='nav-ico' />Ana sayfa</li></Link>
                         <Link to={"/katalog"}><li className="fw-bold"><AiFillProduct className='nav-ico' />Katalog</li></Link>
                         <Link to={"/blog"}><li className="fw-bold"><ImBlog className='nav-ico' />Blog</li></Link>
                         <Link to={"/hakkımızda"}><li className="fw-bold"><GoCrossReference className='nav-ico' />Hakkımızda</li></Link>

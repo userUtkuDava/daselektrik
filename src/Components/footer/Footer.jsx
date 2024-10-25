@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-
+import { Link } from 'react-router-dom';
 import { CiMail } from "react-icons/ci";
 import { MdLocalPhone } from "react-icons/md";
 import { CiLocationArrow1 } from "react-icons/ci";
@@ -30,12 +30,12 @@ const Footer = () => {
                         <div className="col-md-6 col-lg-3 mb-md-0 mb-4">
                             <h2 className="footer-heading">Sayfalar</h2>
                             <ul className="list-unstyled">
-                                <li><a href="/" className="py-1 d-block">Ansayfa</a></li>
-                                <li><a href="katalog" className="py-1 d-block">Ürünler</a></li>
-                                <li><a href="blog" className="py-1 d-block">Blog</a></li>
-                                <li><a href="hakkımızda" className="py-1 d-block">Hakkımızda</a></li>
-                                <li><a href="İletisim" className="py-1 d-block">İletişim</a></li>
-                                <li><a href="hizmetler" className="py-1 d-block">Hizmetlerimiz</a></li>
+                                <Link to={"//"}><li className="py-1 d-block text-light">Ana sayfa</li></Link>
+                                <Link to={"/katalog"}><li className="py-1 d-block text-light">Ürünler</li></Link>
+                                <Link to={"/blog"}><li className="py-1 d-block text-light">Blog</li></Link>
+                                <Link to={"/hakkımızda"}><li className="py-1 d-block text-light">Hakkımızda</li></Link>
+                                <Link to={"/iletisim"}><li className="py-1 d-block text-light">İletişim</li></Link>
+                                <Link to={"/hizmetler"}><li className="py-1 d-block text-light">Hizmetlerimiz</li></Link>
                             </ul>
                         </div>
                         <div className="col-md-6 col-lg-3 mb-md-0 mb-4">
