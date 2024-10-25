@@ -78,7 +78,7 @@ const Menu = () => {
 
             </nav>
             <div className={menuActive}>
-                <ul className='deneme '>
+                <ul className='menuLinks'>
                     <Link to={"//"} onClick={toggleIcon}>
                         <li>
                             <MdHome className='nav-ico' />

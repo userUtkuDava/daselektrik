@@ -1,9 +1,11 @@
-.info-container {
-    margin-left: 10%;
-}
+.info-container {}
+
+.mail-info-content {}
+
+
 
 .info-content {
-    width: 30%;
+    width: 100%;
     padding: .5rem;
 
 }
