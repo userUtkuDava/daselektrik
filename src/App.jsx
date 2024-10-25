@@ -26,10 +26,10 @@ function App() {
         <Menu />
       </nav>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/daselektrik/" element={<Home />} />
         <Route path="/katalog" element={<Katalog />} />
         <Route path="/blog/:id" element={<BlogDetail />} />
-        <Route path="/iletisim" element={<İletisim />} />
+        <Route path="daselektrik/iletisim" element={<İletisim />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/hizmetler" element={<Hizmetler />} />
         <Route path="/blog" element={<Blog />} />

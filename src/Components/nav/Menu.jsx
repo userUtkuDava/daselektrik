@@ -59,11 +59,11 @@ const Menu = () => {
                 <div >
 
                     <ul id='navbar' >
-                        <Link to={"/"}><li><MdHome className='nav-ico' /><a href='#' className='active'>Ana sayfa</a ></li></Link>
+                        <Link to={"/daselektrik/"}><li><MdHome className='nav-ico' /><a href='#' className='active'>Ana sayfa</a ></li></Link>
                         <Link to={"/katalog"}><li><AiFillProduct className='nav-ico' /><a href='#'>Katalog</a></li></Link>
                         <Link to={"/blog"}> <li><ImBlog className='nav-ico' /><a href='#'>Blog</a></li></Link>
                         <Link to={"/hakkımızda"}><li><GoCrossReference className='nav-ico' /><a href='#'>Hakkımızda</a></li></Link>
-                        <Link to={"/iletisim"}><li><RiCustomerService2Fill className='nav-ico' /><a href='#'>İletişim</a></li></Link>
+                        <Link to={"daselektrik/iletisim"}><li><RiCustomerService2Fill className='nav-ico' /><a href='#'>İletişim</a></li></Link>
                         <Link to={"/hizmetler"}><li><RiServiceLine className='nav-ico' /><a href='#'>Hizmetlerimiz</a></li></Link>
                     </ul>
                 </div>
