@@ -11,17 +11,21 @@ const İnfo = () => {
       <div className='container-fluid info-container d-flex flex-row'>
         <div className='d-flex info-content'>
           <div className='col mail-info-content d-flex align-items-center'>
-            <a href='#'>daselektrik.com <CiMail className='ms-1 mb-1 info-icons' /></a>
+            <a href='#' className=''> daselektrik.com <CiMail className=' ms-1 mb-1 info-icons' /></a>
           </div>
           <div className='col phone-info-content d-flex align-items-center'>
-            <a href='#'>(0212) 602 21 22 <CiPhone className='ms-1 mb-1 info-icons' /></a>
+            <a href='tel:05533211188' className='ms-2'>
+              0553 321 11 88 <CiPhone className='ms-1 mb-1 info-icons' />
+            </a>
           </div>
           <div className='col whatsapp-info-content d-flex align-items-center'>
-            <a href='#'>Hemen İletisim </a>
-            <PiWhatsappLogoThin className='info-icons ms-1 ' />
+            <a href='https://wa.me/905533211188' target='_blank' className=''>
+              Whatsapp
+            </a>
+            <PiWhatsappLogoThin className='info-icons d-block ms-1' />
           </div>
         </div>
-      </div>
+      </div >
 
 
     </>

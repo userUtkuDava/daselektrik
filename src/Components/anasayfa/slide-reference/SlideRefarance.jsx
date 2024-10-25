@@ -36,18 +36,18 @@ const SlideRefarance = () => {
 
                 </div>
                 <div className="logos-slide">
-                    <img src='src/Components/anasayfa/slide-reference/img/1.png'></img>
-                    <img src='src/Components/anasayfa/slide-reference/img/2.png'></img>
-                    <img src='src/Components/anasayfa/slide-reference/img/3.png'></img>
-                    <img src='src/Components/anasayfa/slide-reference/img/4.png'></img>
-                    <img src='src/Components/anasayfa/slide-reference/img/5.png'></img>
-                    <img src='src/Components/anasayfa/slide-reference/img/6.png'></img>
-                    <img src='src/Components/anasayfa/slide-reference/img/7.png'></img>
-                    <img src='src/Components/anasayfa/slide-reference/img/8.png'></img>
-                    <img src='src/Components/anasayfa/slide-reference/img/9.png'></img>
-                    <img src='src/Components/anasayfa/slide-reference/img/10.png'></img>
-                    <img src='src/Components/anasayfa/slide-reference/img/11.png'></img>
-                    <img src='src/Components/anasayfa/slide-reference/img/12.png'></img>
+                    <img src={markaİmg1}></img>
+                    <img src={markaİmg2}></img>
+                    <img src={markaİmg3}></img>
+                    <img src={markaİmg4}></img>
+                    <img src={markaİmg5}></img>
+                    <img src={markaİmg6}></img>
+                    <img src={markaİmg7}></img>
+                    <img src={markaİmg8}></img>
+                    <img src={markaİmg9}></img>
+                    <img src={markaİmg10}></img>
+                    <img src={markaİmg11}></img>
+                    <img src={markaİmg12}></img>
 
                 </div>
             </div>

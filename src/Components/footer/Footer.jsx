@@ -42,7 +42,7 @@ const Footer = () => {
                             <h2 className="footer-heading">İletisim</h2>
                             <div className="tagcloud">
                                 <div className=''>
-                                    <p className='fw-bold text-light'><MdLocalPhone className='fs-3 p-2 mb-1 bg-dark text-light rounded-5 ' /> 0212 568 70 81</p>
+                                    <a href='tel:05533211188' target='_blank' className='fw-bold text-light fs-6'><MdLocalPhone className='fs-3 p-2 mb-1 bg-dark text-light rounded-5 ' />   0553 321 11 88</a>
                                     <p className='fw-bold text-light'><CiMail className='mb-1 text-light  bg-dark rounded-5 fs-3 p-2' /> daselektrik.com</p>
                                 </div>
                             </div>
@@ -60,7 +60,8 @@ const Footer = () => {
                                     <img src={logo} className='bg-light rounded-5 p-2 cursor-pointer' width={55}></img>
                                 </div>
                                 <div className='m-2'>
-                                    <img src='https://cdn-icons-png.freepik.com/512/13051/13051741.png?ga=GA1.1.382380607.1722269787' className='bg-light rounded-5 cursor-pointer' width={55}></img>
+                                    <a href='https://wa.me/905533211188' target='_blank'><img src='https://cdn-icons-png.freepik.com/512/13051/13051741.png?ga=GA1.1.382380607.1722269787' className='bg-light rounded-5 cursor-pointer' width={55}></img>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -82,7 +83,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </footer>
+            </footer >
 
 
 
