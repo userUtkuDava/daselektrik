@@ -71,13 +71,13 @@ const Footer = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6 col-lg-8">
-                                <p className="copyright">
+                                <p className="copyright ">
                                     © 2024 UTKU DAVA. Bu web sitesi üzerindeki tüm içerik ve tasarım, yazarın izni olmadan kullanılamaz.
                                 </p>
                             </div>
                             <div className="col-md-6 col-lg-4 text-md-right">
                                 <p className="mb-0 list-unstyled text-black fw-light">
-                                    <strong className='fw-light'> Das elektrik toptan elektrik malzeme satışı</strong>
+                                    <strong className='fw-lighter fs-8'> Das elektrik toptan elektrik malzeme satışı</strong>
                                 </p>
                             </div>
                         </div>
