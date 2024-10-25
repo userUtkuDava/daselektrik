@@ -27,13 +27,13 @@ function App() {
       </nav>
       <Routes>
         <Route path="/daselektrik/" element={<Home />} />
-        <Route path="/katalog" element={<Katalog />} />
-        <Route path="/blog/:id" element={<BlogDetail />} />
+        <Route path="daselektrik/katalog" element={<Katalog />} />
+        <Route path="daselektrik/blog/:id" element={<BlogDetail />} />
         <Route path="daselektrik/iletisim" element={<İletisim />} />
         <Route path="*" element={<NotFound />} />
-        <Route path="/hizmetler" element={<Hizmetler />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/hakkımızda" element={<Hakkımızda />} />
+        <Route path="daselektrik/hizmetler" element={<Hizmetler />} />
+        <Route path="daselektrik/blog" element={<Blog />} />
+        <Route path="daselektrik/hakkımızda" element={<Hakkımızda />} />
       </Routes>
       <UpButton />
       <Footer />
